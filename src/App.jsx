@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 
+import Board from './Board';
+
 function App() {
 	const [squares, setSquares] = useState(Array(9).fill(null));
 	const [isXNext, setIsXNext] = useState(true);
@@ -68,16 +70,7 @@ function App() {
 			<div className="status">
 				<p>{status}</p>
 			</div>
-			<div className="board">
-				{squares.map((value, index) => (
-					<button 
-						key={index} 
-						className="square" 
-						onClick={() => handleClick(index)}>
-							{value}
-					</button>
-				))}
-			</div>
+			<Board squares={squares} handleClick={handleClick}/>
 			{isFinished[0] &&
 				<div className="status">
 					<button onClick={reStart}>REJOUER</button>
