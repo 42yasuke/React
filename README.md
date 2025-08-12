@@ -1,12 +1,48 @@
-# React + Vite
+# 42yasuke / React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un petit projet du jeu Morpion en React basé sur **Vite**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Contenu du projet
 
-## Expanding the ESLint configuration
+```
+.
+├── src/                  # Code source React (composants, styles, etc.)
+├── index.html             # Point d’entrée HTML
+├── vite.config.js         # Configuration du bundler Vite
+├── package.json           # Dépendances & scripts
+├── .gitignore             # Fichiers à ignorer dans Git
+└── README.md              # Ce fichier
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Prérequis
+
+- Node.js (version 14 ou supérieure recommandée)
+- npm ou Yarn installé
+
+---
+
+## 🚀 Installation
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/42yasuke/React.git
+cd React
+
+# Installer les dépendances
+npm install
+```
+
+---
+
+## 🖥 Développement
+
+```bash
+# Démarrer le serveur de développement avec hot reload
+npm run dev
+```
+
+---
