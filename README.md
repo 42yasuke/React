@@ -1,4 +1,4 @@
-# 42yasuke / React
+# 🎮 Morpion
 
 Un petit projet du jeu Morpion en React basé sur **Vite**
 
